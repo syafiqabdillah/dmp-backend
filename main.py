@@ -13,6 +13,7 @@ app.include_router(booking.router)
 origins = [
   "http://localhost",
   "http://localhost:3000",
+  "https://dmp-konvergenai.herokuapp.com/"
 ]
 
 app.add_middleware(
