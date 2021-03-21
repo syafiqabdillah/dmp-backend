@@ -32,7 +32,7 @@ password: user1
 `source venv/bin/activate` for Linux & MacOS <br>
 `venv\Scripts\activate` for Windows
 6. Install all dependencies <br>
-`python install -r requirements.txt`
+`pip install -r requirements.txt`
 7. Copy paste .env file for backend (sent via email) to backend directory
 8. Run the server <br>
 `uvicorn main:app --reload`
